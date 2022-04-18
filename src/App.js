@@ -1,21 +1,21 @@
+import { useState } from "react";
+
 import "./App.css";
-import Welcome from "./Components/Welcome/Welcome";
-import Biography from "./Components/Biography/Biography";
-import Appearance from "./Components/Appearance/Appearance";
-import Work from "./Components/Work/Work";
-import Chart from "./Components/Chart/Chart";
-import Connections from "./Components/Connections/Connections";
+import SearchBar from "./Components/SearchBar/SearchBar";
+import Welcome from "./Pages/Welcome/Welcome";
+import SuperBeingInfo from "./Pages/SuperBeingInfo";
 
 function App() {
+  const [apiReturnedData, setApiReturnedData] = useState("");
+
   return (
-    <div className="App">
-      <Welcome />
-      <Biography />
-      <Appearance />
-      <Work />
-      <Chart />
-      <Connections />
-    </div>
+    <>
+      <SearchBar />
+      <div className="appContainer">
+        <Welcome />
+        <SuperBeingInfo apiReturnedData={apiReturnedData} />
+      </div>
+    </>
   );
 }
 

@@ -1,0 +1,22 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rammetto One', cursive;
+*/
+
+:root {
+  /*Colors*/
+  --red: #f55353;
+  --blue: #143f6b;
+  --light-orange1: #feb94d;
+  --light-orange2: #fec874;
+
+  --white: white;
+  --black: black;
+
+  --font-size-body-mobile: 1.6rem;
+}
+
+.appContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
