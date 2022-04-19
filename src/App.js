@@ -6,15 +6,16 @@ import Welcome from "./Pages/Welcome/Welcome";
 import SuperBeingInfo from "./Pages/SuperBeingInfo";
 
 function App() {
-  const [apiReturnedData, setApiReturnedData] = useState("");
+  const [apiReturnedData, setApiReturnedData] = useState();
+
+  const handleApiData = (responseData) => {
+    setApiReturnedData(responseData);
+  };
 
   return (
     <>
-      <SearchBar />
-      <div className="appContainer">
-        <Welcome />
-        <SuperBeingInfo apiReturnedData={apiReturnedData} />
-      </div>
+      <SearchBar onReceivingDataFromApi={handleApiData} />
+      <div className="appContainer">{apiReturnedData ? <SuperBeingInfo apiReturnedData={apiReturnedData} /> : <Welcome />}</div>
     </>
   );
 }
