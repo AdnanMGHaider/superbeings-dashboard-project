@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/superbeings-dashboard-project/static/css/main.ec0c9645.css",
+    "main.js": "/superbeings-dashboard-project/static/js/main.3610f0a6.js",
+    "index.html": "/superbeings-dashboard-project/index.html",
+    "main.ec0c9645.css.map": "/superbeings-dashboard-project/static/css/main.ec0c9645.css.map",
+    "main.3610f0a6.js.map": "/superbeings-dashboard-project/static/js/main.3610f0a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec0c9645.css",
+    "static/js/main.3610f0a6.js"
+  ]
+}
