@@ -5,6 +5,7 @@
   align-items: center;
   width: 100%;
   margin: 0 auto;
+  margin-top: 1rem;
   padding: 1rem;
 }
 
@@ -55,4 +56,33 @@ button {
 
 .dropDownItem:hover {
   background-color: var(--light-orange2);
+}
+
+@media (min-width: 730px) {
+  .searchBarSection {
+    width: 70%;
+  }
+  .inputAndDropDown input {
+    height: 4rem;
+  }
+
+  button {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .searchBarSection {
+    width: 70%;
+  }
+
+  .inputAndDropDown input {
+    height: 4rem;
+  }
+
+  button {
+    height: 4rem;
+    width: 4rem;
+  }
 }
