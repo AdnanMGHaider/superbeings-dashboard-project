@@ -2,6 +2,7 @@
   font-size: 1.6rem;
   padding: 1rem;
   background-color: #fff;
+  /* overflow: hidden; */
 }
 
 .bioHeading {
@@ -13,6 +14,7 @@
 
 table {
   width: 100%;
+  table-layout: fixed;
 }
 
 .tableHeading {
@@ -22,10 +24,11 @@ table {
   color: white;
   padding: 1rem;
   font-weight: normal;
+  overflow-wrap: break-word;
 }
 .tableData {
-  /* width: 70%; */
   padding: 1rem;
+  overflow-wrap: break-word;
   /* border-style: none;
   border: 3px solid white; */
 }

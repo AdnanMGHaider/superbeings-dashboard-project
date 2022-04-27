@@ -18,6 +18,7 @@
   color: white;
   padding: 1rem;
   font-weight: normal;
+  overflow-wrap: break-word;
 }
 
 table {
@@ -26,6 +27,7 @@ table {
 
 .tableData {
   /* width: 70%; */
+  overflow-wrap: break-word;
   padding: 1rem;
   /* border-style: none;
   border: 3px solid white; */

@@ -2,6 +2,11 @@
   /* padding: 1rem; */
   padding-top: 1rem;
   background-color: #fff;
+  overflow: hidden;
+}
+
+.barChart {
+  margin: 0 auto;
 }
 
 .chartHeading {
