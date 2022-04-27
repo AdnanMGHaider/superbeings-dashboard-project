@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/superbeings-dashboard-project/static/css/main.ec0c9645.css",
-    "main.js": "/superbeings-dashboard-project/static/js/main.3610f0a6.js",
+    "main.css": "/superbeings-dashboard-project/static/css/main.49245251.css",
+    "main.js": "/superbeings-dashboard-project/static/js/main.abb9d2dd.js",
     "index.html": "/superbeings-dashboard-project/index.html",
-    "main.ec0c9645.css.map": "/superbeings-dashboard-project/static/css/main.ec0c9645.css.map",
-    "main.3610f0a6.js.map": "/superbeings-dashboard-project/static/js/main.3610f0a6.js.map"
+    "main.49245251.css.map": "/superbeings-dashboard-project/static/css/main.49245251.css.map",
+    "main.abb9d2dd.js.map": "/superbeings-dashboard-project/static/js/main.abb9d2dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec0c9645.css",
-    "static/js/main.3610f0a6.js"
+    "static/css/main.49245251.css",
+    "static/js/main.abb9d2dd.js"
   ]
 }
